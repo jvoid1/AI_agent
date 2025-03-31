@@ -1,0 +1,59 @@
+{
+  "websites": [
+    {
+      "name": "DATH",
+      "type": "dath",
+      "url": "https://www.dath.com.mx/",
+      "selectors": {
+        "facturacion_button": "text=Facturación",
+        "iframe": "iframe[src=\"https://dath.intelisiscloud.com:9403/#!/\"]",
+        "store_selector": "select#Tienda",
+        "ticket_input": "input#ticket",
+        "total_input": "input#total",
+        "submit_button": "button.btn.btn-primary.button-principal:has-text(\"Buscar Ticket\")"
+      },
+      "form_data": {
+        "store_value": "2015",
+        "ticket_number": "12345",
+        "total_amount": "67.89"
+      }
+    },
+    {
+      "name": "MonParis",
+      "type": "monparis",
+      "url": "https://monparis.mx",
+      "selectors": {
+        "facturacion_button": "text=FACTURACION"
+      },
+      "form_data": {
+        "OrderNumber": "123456",
+        "Total": "123.45",
+        "TotalInvoice": "123.45",
+        "rfc": "JOAV000101EC",
+        "legalName": "Zumma",
+        "email": "zumma@zumma.com",
+        "CP": "12345",
+        "regimen_fiscal": "601",
+        "uso_cfdi": "G03"
+      }
+    },
+    {
+      "name": "Alsea",
+      "type": "Alsea",
+      "url": "https://www.alsea.com.mx/factura-electronica.html",
+      "selectors": {
+        "facturacion_button": "text=Facturación",
+        "iframe": "iframe[src=\"https://dath.intelisiscloud.com:9403/#!/\"]",
+        "store_selector": "select#Tienda",
+        "ticket_input": "input#ticket",
+        "total_input": "input#total",
+        "submit_button": "button.btn.btn-primary.button-principal:has-text(\"Buscar Ticket\")"
+      },
+      "form_data": {
+        "store_value": "2015",
+        "ticket_number": "12345",
+        "total_amount": "67.89"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ai-agent-project"
+version = "0.1.0"
+description = "An AI agent that automates the process of reading information from websites in Mexico to generate invoices."
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+playwright = "^1.30.0"  # Adjust the version as necessary
+opencv-python = "^4.5.5"  # For computer vision tasks
+numpy = "^1.26.4"  # For numerical operations if needed
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
